@@ -18,8 +18,8 @@ updates:
       dev-dependency:
         dependency-type: 'development'
       prod-dependency:
-      applies-to: security-updates
-      dependency-type: 'production'
-    dev-dependency:
-      applies-to: security-updates
-      dependency-type: 'development'
+        applies-to: security-updates
+        dependency-type: 'production'
+      dev-dependency:
+        applies-to: security-updates
+        dependency-type: 'development'
