@@ -8,7 +8,7 @@ updates:
   - package-ecosystem: 'npm' # See documentation for possible values
     directory: '/' # Location of package manifests
     schedule:
-      interval: 'daily'
+      interval: 'weekly'
       time: '10:00'
       timezone: 'Asia/Tokyo' # Use Japan Standard Time (UTC +09:00)
     reviewers: 'y-l-mochizuki'
@@ -17,23 +17,9 @@ updates:
         dependency-type: 'production'
       dev-dependency:
         dependency-type: 'development'
-    labels:
-      - 'version'
-      - 'updates'
-  - package-ecosystem: 'npm'
-    directory: '/'
-    schedule:
-      interval: 'daily'
-      time: '10:00'
-      timezone: 'Asia/Tokyo'
-    reviewers: 'y-l-mochizuki'
-    groups:
       prod-dependency:
-        dependency-type: 'production'
-        applies-to: security-updates
-      dev-dependency:
-        dependency-type: 'development'
-        applies-to: security-updates
-    labels:
-      - 'security'
-      - 'updates'
+      applies-to: security-updates
+      dependency-type: 'production'
+    dev-dependency:
+      applies-to: security-updates
+      dependency-type: 'development'
