@@ -13,7 +13,7 @@ updates:
       timezone: 'Asia/Tokyo' # Use Japan Standard Time (UTC +09:00)
     reviewers: 'y-l-mochizuki'
     groups:
-      applies-to: version-updates
+      applies-to: 'version-updates'
       prod-dependency:
         dependency-type: 'production'
       dev-dependency:
@@ -29,7 +29,7 @@ updates:
       timezone: 'Asia/Tokyo'
     reviewers: 'y-l-mochizuki'
     groups:
-      applies-to: security-updates
+      applies-to: 'security-updates'
       prod-dependency:
         dependency-type: 'production'
       dev-dependency:
