@@ -11,7 +11,7 @@ updates:
       interval: 'weekly'
       time: '10:00'
       timezone: 'Asia/Tokyo' # Use Japan Standard Time (UTC +09:00)
-    reviewers: 'y-l-mochizuki'
+    reviewers: ['y-l-mochizuki']
     groups:
       prod-dependency:
         dependency-type: 'production'
